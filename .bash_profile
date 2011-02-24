@@ -16,6 +16,10 @@ alias c-='cdl -'
 
 alias epro='vi ~/.bash_profile'
 
+function kill_flv {
+  kill -9 `ps -e | grep [f]lvstream | cut -f 1 -d " "`
+}
+
 # For ports:
 export PATH=/opt/local/bin:$PATH
 # For node.js
