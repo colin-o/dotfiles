@@ -1,0 +1,21 @@
+[user]
+	name = Colin Olson
+	email = thecolin@gmail.com
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[core]
+	editor = mate -w
+
+[merge]
+	tool = opendiff
+	
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
