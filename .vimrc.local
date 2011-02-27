@@ -1,1 +1,11 @@
 set showcmd
+
+" Allow JSLint errors to show squigglies on the lines with errors.
+let g:JSLintHighlightErrorLine = 1
+
+" Clear highlighted search results by hitting space
+nmap <silent> <SPACE> <SPACE>:noh<CR>
+
+" Reindent the whole document. Matches my visual studio shortcut. Leaves
+" cursor in its original position.
+nmap <C-K><C-D> 1G=G<C-O><C-O>

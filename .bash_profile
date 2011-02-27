@@ -25,4 +25,4 @@ export PATH=/opt/local/bin:$PATH
 # For node.js
 export PATH=/usr/local/node/bin:$PATH
 # For MacVim
-export VIM_APP_DIR=/Applications
+export VIM_APP_DIR="~/My Applications"
